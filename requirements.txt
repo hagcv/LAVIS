@@ -18,7 +18,7 @@ pycocotools
 python-magic
 scikit-image
 sentencepiece
-spacy
+spacy==3.7.5    # dependency 문제로 추가
 streamlit
 timm==0.4.12
 torch>=1.10.0
@@ -31,7 +31,7 @@ torchaudio
 soundfile
 moviepy
 nltk
-peft
+peft==0.5.0     # dependency 문제로 추가
 
 easydict==1.9
 pyyaml_env_tag==0.1
